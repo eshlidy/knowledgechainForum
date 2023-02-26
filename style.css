@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    z-index: 10;
     box-sizing: border-box;
     color: #fff;
     position: fixed;
@@ -124,3 +125,237 @@ main {
     bottom: 10px;
 }
 
+.slide {
+    position: relative;
+    top: 80px;
+    left: 20px;
+    border: 2px #fff solid;
+    width: 220px;
+    height: 87vh;
+}
+
+.navigation {
+    background-color: #262d34;
+    border-radius: 15px;
+}
+
+.newest {
+    height: 50px;
+}
+
+.popular {
+    height: 50px;
+}
+
+.following {
+    height: 50px;
+}
+
+.navigation-img {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.heading-txt {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    bottom: 42px;
+    left: 47px;
+}
+
+.description-txt {
+    color: #97989D;
+    position: relative;
+    font-weight: 300;
+    font-size: 12px;
+    bottom: 58px;
+    left: 47px;
+}
+
+.txt-24 {
+    color: #fff;
+    background-color: #FF6934;
+    display: inline;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.popular-tags {
+    background-color: #262D34;
+    height: 340px;
+    border-radius: 15px;
+}
+
+.popular-tags-txt {
+    position: relative;
+    left: 15px;
+    top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.javascript {
+    height: 50px;
+}
+
+.bitcoin {
+    height: 50px;
+}
+
+.design {
+    height: 50px;
+}
+
+.innovation {
+    height: 50px;
+}
+
+.tutorial {
+    height: 50px;
+}
+
+.busieness {
+    height: 50px;
+}
+
+.info-container {
+    border: 4px red solid;
+    position: relative;
+    width: 63vw;
+    height: 80vh;
+    bottom: 550px;
+    left: 250px;
+}
+
+.create-post {
+    width: 63vw;
+    height: 60px;
+    background-color: #262d34;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.avatar-img2 {
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.inp-create-post {
+    position: relative;
+    background: none;
+    border: none;
+    background-color: #2C353D;
+    height: 45px;
+    width: 45vw;
+    border-radius: 10px;
+    bottom: 5px;
+    left: 40px;
+}
+
+.inp-create-post::placeholder {
+    position: relative;
+    left: 10px;
+    color: #fff;
+}
+
+.create-post-btn {
+    position: relative;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #FF6934;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-size: 22px;
+    left: 55px;
+    bottom: 2px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.post-one {
+    border: 3px #fff solid;
+    height: 190px;
+    background-color: #2C353D;
+    border-radius: 15px;
+}
+
+.post-two {
+    border: 3px #fff solid;
+    height: 190px;
+    background-color: #2C353D;
+    border-radius: 15px;
+}
+
+.post-three {
+    border: 3px #fff solid;
+    height: 190px;
+    background-color: #2C353D;
+    border-radius: 15px;
+}
+
+
+.post-img {
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.post-heading {
+    position: relative;
+    left: 200px;
+    bottom: 165px;
+    font-size: 22px;
+}
+
+.tags {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: 190px;
+    left: 200px;
+}
+
+.tag1 {
+    display: inline-block;
+    background-color: #2C353D;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag2 {
+    display: inline-block;
+    background-color: #2C353D;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tag3 {
+    display: inline-block;
+    background-color: #2C353D;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.love-img {
+    position: relative;
+    left: 900px;
+    bottom: 270px;
+}
+
+.people-info {
+    border: 2px #fff solid;
+    height: 70px;
+    width: 760px;
+    position: relative;
+    bottom: 225px;
+    left: 200px;
+}
+
+.
