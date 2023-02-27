@@ -6,6 +6,7 @@ body {
     margin: 0;
     min-height: 100vh;
     background: #1e252b;
+    overflow-x: hidden;
 }
 
 header {
@@ -20,6 +21,16 @@ header {
 
 main {
     color: #fff;
+    flex: 1;
+}
+
+footer {
+    flex-shrink: 0;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    position: relative;
+    bottom: 1100px;
 }
 
 .logo-img {
@@ -129,7 +140,6 @@ main {
     position: relative;
     top: 80px;
     left: 20px;
-    border: 2px #fff solid;
     width: 220px;
     height: 87vh;
 }
@@ -221,10 +231,9 @@ main {
 }
 
 .info-container {
-    border: 4px red solid;
     position: relative;
     width: 63vw;
-    height: 80vh;
+    height: 92vh;
     bottom: 550px;
     left: 250px;
 }
@@ -277,21 +286,20 @@ main {
 }
 
 .post-one {
-    border: 3px #fff solid;
     height: 190px;
     background-color: #2C353D;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .post-two {
-    border: 3px #fff solid;
     height: 190px;
     background-color: #2C353D;
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .post-three {
-    border: 3px #fff solid;
     height: 190px;
     background-color: #2C353D;
     border-radius: 15px;
@@ -321,7 +329,7 @@ main {
 
 .tag1 {
     display: inline-block;
-    background-color: #2C353D;
+    background-color: #1e252b;
     padding: 5px;
     border-radius: 5px;
     margin-right: 5px;
@@ -329,7 +337,7 @@ main {
 
 .tag2 {
     display: inline-block;
-    background-color: #2C353D;
+    background-color: #1e252b;
     padding: 5px;
     border-radius: 5px;
     margin-right: 5px;
@@ -337,7 +345,7 @@ main {
 
 .tag3 {
     display: inline-block;
-    background-color: #2C353D;
+    background-color: #1e252b;
     padding: 5px;
     border-radius: 5px;
     margin-right: 5px;
@@ -349,13 +357,164 @@ main {
     bottom: 270px;
 }
 
+.love-img-orange {
+    position: relative;
+    left: 900px;
+    bottom: 300px;
+}
+
 .people-info {
-    border: 2px #fff solid;
     height: 70px;
     width: 760px;
     position: relative;
-    bottom: 225px;
+    bottom: 240px;
     left: 200px;
 }
 
-.
+.people-info1 {
+    height: 70px;
+    width: 760px;
+    position: relative;
+    bottom: 220px;
+    left: 200px;
+}
+
+.people-info-img {
+    position: relative;
+    top: 15px;
+    margin: 10px;
+}
+
+.people-name {
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+}
+
+.people-date {
+    position: relative;
+    bottom: 80px;
+    left: 60px;
+    color: #97989D;
+}
+
+.seo-info {
+    color: #97989D;
+    width: 400px;
+    position: relative;
+    bottom: 150px;
+    left: 350px;
+}
+
+.views {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.likes {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.comments {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.right-bar {
+    position: relative;
+    bottom: 1223px;
+    width: 18vw;
+    left: 1230px;
+    height: 87vh;
+}
+
+.podcasts-main-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+.podcast-one {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.podcast-two {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.podcast-three {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.podcast-four {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.podcast-five {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.podcast-six {
+    position: relative;
+    height: 80px;
+    background-color: #2C353D;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+.podcast-img {
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.podcast-heading {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    position: relative;
+    bottom: 75px;
+    left: 72px;
+}
+
+.podcast-description {
+    color: #97989D;
+    font-weight: 400;
+    font-size: 12px;
+    position: relative;
+    bottom: 80px;
+    left: 72px;
+}
+
+.podcast-vector {
+    position: relative;
+    bottom: 110px;
+    left: 235px;
+}
